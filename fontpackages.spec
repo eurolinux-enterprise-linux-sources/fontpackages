@@ -4,7 +4,7 @@
 
 Name:    fontpackages
 Version: 1.44
-Release: 7%{?dist}
+Release: 8%{?dist}
 Summary: Common directory and macro definitions used by font packages
 
 Group:     Development/System
@@ -140,6 +140,9 @@ rm -fr %{buildroot}
 %{_bindir}/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.44-8
+- Mass rebuild 2013-12-27
+
 * Sat Mar 09 2013 Ralf Corsépius <corsepiu@fedoraproject.org> - 1.44-7
 - Remove %%config from %%{_sysconfdir}/rpm/macros.*
   (https://fedorahosted.org/fpc/ticket/259).
